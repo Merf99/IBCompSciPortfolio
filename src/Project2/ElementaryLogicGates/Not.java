@@ -8,7 +8,12 @@ public class Not {
     }
 
     public void compute(boolean in){
-
+        if (in==true){
+            out = false;
+        }
+        else {
+            out = true;
+        }
     }
 
 }

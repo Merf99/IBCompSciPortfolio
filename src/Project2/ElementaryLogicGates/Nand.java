@@ -1,10 +1,11 @@
 package Project2.ElementaryLogicGates;
 
 public class Nand {
+
     public boolean out;
 
-    public Nand() {
 
+    public Nand() {
     }
 
     public void compute(boolean a, boolean b){

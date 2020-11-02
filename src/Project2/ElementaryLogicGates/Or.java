@@ -9,7 +9,12 @@ public class Or {
     }
 
     public void compute(boolean a, boolean b){
-
+        if (a == true||b == true){
+            out = true;
+        }
+        else {
+            out = false;
+        }
     }
 
 }
