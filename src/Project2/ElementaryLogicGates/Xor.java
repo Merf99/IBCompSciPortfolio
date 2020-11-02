@@ -12,11 +12,6 @@ public class Xor {
         if (a==true && b==false){
             out = true;
         }
-        else if (a==false && b==true){
-            out = true;
-        }
-        else {
-            out = false;
-        }
+        else out = a == false && b == true;
     }
 }
