@@ -8,32 +8,62 @@ import static org.junit.Assert.*;
 public class MuxTest {
 
     @Test
-    public void compute() {
+    public void compute1() {
         Mux mux1 = new Mux();
 
         mux1.compute(false,false,false);
-        assertEquals(false,mux1.out);
+        assertFalse(mux1.out);
+    }
+    @Test
+    public void compute2() {
+        Mux mux1 = new Mux();
 
         mux1.compute(false,true,false);
-        assertEquals(false,mux1.out);
+        assertFalse(mux1.out);
+    }
+    @Test
+    public void compute3() {
+        Mux mux1 = new Mux();
 
         mux1.compute(true,false,false);
-        assertEquals(true,mux1.out);
+        assertTrue(mux1.out);
+
+    }
+    @Test
+    public void compute4() {
+        Mux mux1 = new Mux();
 
         mux1.compute(true,true,false);
-        assertEquals(true,mux1.out);
+        assertTrue(mux1.out);
+
+    }
+    @Test
+    public void compute5() {
+        Mux mux1 = new Mux();
 
         mux1.compute(false,false,true);
-        assertEquals(false,mux1.out);
+        assertFalse(mux1.out);
+    }
+    @Test
+    public void compute6() {
+        Mux mux1 = new Mux();
 
         mux1.compute(false,true,true);
-        assertEquals(true,mux1.out);
+        assertTrue(mux1.out);
+    }
+    @Test
+    public void compute7() {
+        Mux mux1 = new Mux();
 
         mux1.compute(true,false,true);
-        assertEquals(false,mux1.out);
+        assertFalse(mux1.out);
+    }
+    @Test
+    public void compute8() {
+        Mux mux1 = new Mux();
 
         mux1.compute(true,true,true);
-        assertEquals(true,mux1.out);
+        assertTrue(mux1.out);
 
     }
 }
