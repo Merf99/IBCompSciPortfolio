@@ -4,7 +4,6 @@ public class Nand {
 
     public boolean out;
 
-
     public Nand() {
     }
 
