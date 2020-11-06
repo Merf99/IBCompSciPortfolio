@@ -5,7 +5,6 @@ import Project2.ElementaryLogicGates.Or;
 import Project2.ElementaryLogicGates.Xor;
 
 public class FullAdder {
-
     public boolean sum;
     public boolean carry;
     private Xor xor1;
