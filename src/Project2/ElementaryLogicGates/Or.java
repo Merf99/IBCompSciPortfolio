@@ -4,6 +4,7 @@ public class Or {
 
     public boolean out;
 
+
     public Or() {
 
     }
