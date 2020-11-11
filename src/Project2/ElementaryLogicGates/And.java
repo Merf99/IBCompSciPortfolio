@@ -9,7 +9,6 @@ public class And {
     public And() {
         nand1 = new Nand();
         not1 = new Not();
-
     }
 
     public void compute(boolean a, boolean b){
